@@ -1,0 +1,3 @@
+[submodule "vendor/naver-map"]
+	path = vendor/naver-map
+	url = https://github.com/naver/navermap-ios-api.git
