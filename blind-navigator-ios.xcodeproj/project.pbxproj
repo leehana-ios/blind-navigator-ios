@@ -216,11 +216,7 @@
 		02D8EF161C0725EB000DA8F1 = {
 			isa = PBXGroup;
 			children = (
-				02D8EF5A1C07318E000DA8F1 /* SystemConfiguration.framework */,
-				02D8EF581C07317A000DA8F1 /* libsqlite3.tbd */,
-				02D8EF561C073171000DA8F1 /* CoreLocation.framework */,
-				02D8EF541C073166000DA8F1 /* QuartzCore.framework */,
-				02D8EF521C07315A000DA8F1 /* CoreGraphics.framework */,
+				02D8EFDD1C0734E9000DA8F1 /* libs */,
 				02D8EF211C0725EB000DA8F1 /* blind-navigator-ios */,
 				02D8EF361C0725EB000DA8F1 /* blind-navigator-iosTests */,
 				02D8EF411C0725EB000DA8F1 /* blind-navigator-iosUITests */,
@@ -421,6 +417,18 @@
 				02D8EFAF1C0731C3000DA8F1 /* start_icon_over@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		02D8EFDD1C0734E9000DA8F1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				02D8EF5A1C07318E000DA8F1 /* SystemConfiguration.framework */,
+				02D8EF581C07317A000DA8F1 /* libsqlite3.tbd */,
+				02D8EF561C073171000DA8F1 /* CoreLocation.framework */,
+				02D8EF541C073166000DA8F1 /* QuartzCore.framework */,
+				02D8EF521C07315A000DA8F1 /* CoreGraphics.framework */,
+			);
+			name = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
